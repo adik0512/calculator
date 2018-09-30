@@ -1,0 +1,541 @@
+img{
+    border: 0px;
+    vertical-align: text-bottom;
+}
+
+div#kalkulator{
+    background-color: #eeeeee;
+    text-align:left;
+    width: 502px;
+    position: relative;
+    font: 12px/14px Verdana, arial, sans-serif;
+    padding-bottom: 1px;
+    margin: 0px auto;
+}
+div#opis{
+    visibility:hidden;
+}
+div#kalkulator div#kalkulator_bl{
+    background: url('https://img.gofin.pl/kalkulatory/kalkulator_left_bottom_cor.png') no-repeat left bottom;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+div#kalkulator div#kalkulator_br{
+    background: url('https://img.gofin.pl/kalkulatory/kalkulator_right_bottom_cor.png') no-repeat right bottom;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+div#kalkulator div#kalkulatorData{
+    background-color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: #969696;
+    font-size: 11px;;
+}
+
+div#kalkulator div#kalkulatorNaglowek{
+    background: url('https://img.gofin.pl/kalkulatory/kalkulator_top.png') no-repeat right top;
+    width: 502px;
+    height: 42px;
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+div.PokazNawydruku{
+    margin-top: 25px;
+}
+
+div.PokazNawydruku table{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px #000000 solid;
+}
+div.PokazNawydruku table td{
+    padding: 2px;
+    border-right: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+    vertical-align: center;
+    text-align: center;
+}
+
+div.PokazNawydruku table td.gora{
+    border-top: 1px #000000 solid;
+}
+
+div.PokazNawydruku table td.bezdolnegobordera{
+    border-bottom: 0px #ffffff solid;
+}
+
+div.PokazNawydruku table td.bezprawegobordera{
+    border-right: 0px #ffffff solid;
+}
+
+div.PokazNawydruku table td.ukryjTD{
+    display: none;
+}
+
+div#kalkulator div.kalkulatorNaglowekAdres{
+    display: none;
+}
+
+div.kalkulator_prawny div.kalkulatorNaglowekAdres {
+    display: none;
+}
+
+div#kalkulator div.kalkulatorStopkaAdres{
+    display: none;
+}
+
+div#kalkulator div#kalkulatorNaglowek span.naglowekMaly{
+    font-size: 0.9em;
+}
+
+div#kalkulator div#kalkulatorFormularz{
+    margin: 10px;
+}
+
+div#kalkulator div#kalkulatorFormularz div.formularzWiersz{
+    border-bottom: 1px solid #d6d6d6;
+    clear: both;
+    height: 0px;
+    min-height: 40px;
+
+}
+
+div#kalkulator div#kalkulatorFormularz div.formularzWiersz div.wierszEtykieta
+{
+    float: left;
+    width: 55%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.opisEtykieta{
+    float: left;
+    width: 55%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.opisPoleEdycji{
+    float: left;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 25px;
+
+}
+
+
+
+div.zwiekszenialista input{
+    width: 130px;
+    text-align: right;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+
+div#kalkulator div#kalkulatorFormularz div.formularzWiersz div.wierszPoleEdycji{
+    float: left;
+    width: 42%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#kalkulator div#kalkulatorFormularz div.formularzWiersz div.wierszPoleEdycji input{
+    width: 130px;
+    text-align: right;
+    font-size: 1em;
+    vertical-align: middle;
+}
+div#kalkulator div#kalkulatorFormularz div.formularzWiersz div.wierszPoleEdycji select{
+    vertical-align: middle;
+}
+
+div#kalkulator div#kalkulatorFormularz div.formularzWiersz div.wierszPoleEdycji input.poleEdycjiRadio{
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+div#kalkulator div#kalkulatorWyniki{
+    background-color: #fff;
+    position: relative;
+    width: 97%;
+    margin: 10px auto;
+    display: none;
+}
+
+div#kalkulator div#kalkulatorWyniki div#kalkulatorWyniki_tl{
+    background: url('https://img.gofin.pl/kalkulatory/wyniki_left_up_corner.png') no-repeat left top;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div#kalkulator div#kalkulatorWyniki div#kalkulatorWyniki_tr{
+    background: url('https://img.gofin.pl/kalkulatory/wyniki_right_up_corner.png') no-repeat right top;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div#kalkulator div#kalkulatorWyniki div#kalkulatorWyniki_bl{
+    background: url('https://img.gofin.pl/kalkulatory/wyniki_left_bottom_corner.png') no-repeat left bottom;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+div#kalkulator div#kalkulatorWyniki div#kalkulatorWyniki_br{
+    background: url('https://img.gofin.pl/kalkulatory/wyniki_right_bottom_corner.png') no-repeat right bottom;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+div#kalkulator div#kalkulatorWyniki div#wynikiNaglowek{
+    background-color: #dedcdc;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela{
+    font: 1em Verdana, arial, sans-serif;
+    text-align: left;
+    width: 486px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody tr{
+    border-bottom: 1px solid #d6d6d6;
+
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody th{
+    width: 60%;
+    border-bottom: 1px solid #d6d6d6;
+    font-weight: normal;
+    padding: 10px;
+    text-align: left;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody td{
+    width: 36%;
+    border-bottom: 1px solid #d6d6d6;
+    font-weight: normal;
+    text-align: right;
+    padding: 10px;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela2{
+    font: 1em Verdana, arial, sans-serif;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela2 tbody tr{
+    border-bottom: 1px solid #d6d6d6;
+}
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela2 thead th{
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+}
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela2 tbody td{
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+}
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela2 tbody td.tdKwota{
+    text-align: right;
+    padding-right: 27px;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela2 tbody td.tdKwotaCzerwona{
+    color: #c00;
+    text-align: right;
+    padding-right: 27px;
+}
+
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody tr.trWynik {
+    font-weight: bold;
+}
+.trWynik{
+    font-weight: bold;
+}
+
+
+div#kalkulator  div.kalkulatorPrzycisk{
+    text-align: center;
+
+}
+
+div#kalkulator  div.kalkulatorPrzycisk input#przyciskObliczeniaSprawdz{
+    border: none;
+    width: 145px;
+    height: 40px;
+    background: url('https://img.gofin.pl/kalkulatory/sprawdz.png') no-repeat top;
+    cursor: pointer;
+}
+
+div#kalkulator  div.kalkulatorPrzycisk input#przyciskObliczenia{
+    border: none;
+    width: 145px;
+    height: 40px;
+    background: url('https://img.gofin.pl/kalkulatory/oblicz_button.png') no-repeat top;
+    cursor: pointer;
+}
+
+
+div#kalkulator  div.kalkulatorPrzycisk input#przyciskDrukuj{
+    border: none;
+    width: 145px;
+    height: 40px;
+    background: url('https://img.gofin.pl/kalkulatory/drukuj_button.png') no-repeat top;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+
+
+div#kalkulatorUwaga{
+    text-align:left;
+    width: 750px;
+}
+
+div#kalkulatorUwaga .trescUwagi{
+    font-size: 10px;
+    margin: 10px;
+}
+
+div.formularzWiersz .trescUwagi{
+    font-size: 10px;
+    margin: 10px;
+}
+
+div#kalkulator  div.kalkulatorPodtytul{
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+div#kalkulator div#kalkulatorStopkaDruk{
+    display: none;
+}
+
+div#kalkulator div#kalkulatorNaglowekDruk{
+    display: none;
+}
+
+.kalkulatorTabelaSelectPrint{
+    display: none;
+}
+.komunikatBleduFalse{
+    color:#c00;
+    font-weight:bold;
+}
+.komunikatBleduTrue{
+    color:#669900;
+    font-weight:bold;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody th.wynikiTabelakal26{
+    width: 70%;
+    text-align: left;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody th.wynikiTabelakal27{
+    width: 60%;
+    text-align: left;
+}
+
+div#kalkulator div#kalkulatorWyniki table.wynikiTabela tbody td.bladkal26{
+    text-align: left;
+}
+
+div#FormularzMiesiecznegoZestawieniaWydatkow table{
+    text-align: center;
+    border: 1px solid dark;
+    font-size: 10px;
+}
+div#FormularzEwidencjaPrzebieguPojazdu table{
+    text-align: center;
+    border: 1px solid dark;
+    font-size: 10px;
+}
+.error_w_kalkulatorze{
+    color: red;
+    border: 1px solid red;
+}
+
+.usun_error_w_kalkulatorze{
+    color: dark;
+    border: 0px solid red;
+}
+div#komunikat_bledna_wart{
+    color: red;
+     text-align: right;
+    font-size: 9px;
+    display: none;
+
+}
+
+div#komunikat_bledna_wartLimitZaDanyMiesiac{
+    color: red;
+    height:20px;
+    width: 130px;
+    text-align: right;
+    font-size: 9px;
+    float:right;
+    display: none;
+    margin-right: 5px;
+    padding-top: 2px;
+}
+
+div#komunikat_LimitZaMCpoprzednieWartosc{
+    color: red;
+    height:20px;
+    width: 130px;
+    text-align: right;
+    font-size: 9px;
+    float:right;
+    display: none;
+    margin-right: 5px;
+    padding-top: 2px;
+}
+div#komunikat_SumaWydatkowZaDanyMC{
+    color: red;
+    height:20px;
+    width: 130px;
+    text-align: right;
+    font-size: 9px;
+    float:right;
+    display: none;
+    margin-right: 5px;
+    padding-top: 2px;
+}
+
+div#komunikat_SumaWydatkowZaPoprzednieMC{
+    color: red;
+    height:20px;
+    width: 130px;
+    text-align: right;
+    font-size: 9px;
+    float:right;
+    display: none;
+    margin-right: 5px;
+    padding-top: 2px;
+}
+
+div#komunikat_SumaWydatkowZaDanyMCtab{
+    color: red;
+    text-align: center;
+    font-size: 9px;
+    display: none;
+    padding: 0px;
+    width: auto;
+}
+
+div.BlednieWpisanaWartoscMZW{
+    color: red;
+    text-align: center;
+    font-size: 9px;
+    display: none;
+    padding: 0px;
+    width: auto;
+}
+
+table#tylkoWydruk{
+    display: none;
+}
+
+.ZakladkaCalaStronaPrawaSrodek h1.kalkulator {
+    font-size:21px;
+    padding:5px 5px 5px 10px;
+    text-align:left;
+}
+
+.ZakladkaCalaStronaPrawaSrodek h2.zobaczPozostale {
+    color: #FF7800;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-top:0px;
+}
+
+.KalkulatoryLista h1 {
+    color: #FF7800;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-top:2px;
+    border: none;
+}
+
+#kalkulatorPrzyklady {
+    text-align: left;
+    width: 750px;
+}
+.kalkulatorPrzykladyNaglowek {
+    font-size: 14px;
+    margin: 5px;
+}
+.kalkulatorPrzykladyLista {
+    margin-left: 20px;
+}
+.kalkulatorPrzykladyLink {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    font-family: Verdana !important;
+}
+.kalkulatorPrzykladyZrodlo {
+    color: #b4b4b4;
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.kalkulatorPrzykladyZrodloLink {
+    font-size: 11px !important;
+    font-family: Verdana !important;
+    color: #698913 !important;
+}
+
+a.link-niebieski, a.link-niebieski:visited, a.link-niebieski:hover {
+    text-decoration: underline;
+    color: #0066cc;
+}
